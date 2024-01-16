@@ -5,7 +5,6 @@ const Logout = () => {
   let location = useLocation();
   return (
     <>
-      if(name !== null){}
       <h1>Logout</h1>;<h2>{location.state.name}Log Out !!</h2>
     </>
   );
