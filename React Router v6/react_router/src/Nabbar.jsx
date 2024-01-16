@@ -67,6 +67,18 @@ const Nabbar = () => {
               Post
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/post/mobile/1"
+              style={({ isActive }) => {
+                return {
+                  backgroundColor: isActive ? "red" : "",
+                };
+              }}
+            >
+              Post With Id
+            </NavLink>
+          </li>
         </ul>
       }
     </>
